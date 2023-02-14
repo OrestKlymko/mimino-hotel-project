@@ -1,0 +1,43 @@
+// modern-normalize
+@import './common';
+//Fonts - шрифти
+@import './fonts';
+// Зміні
+@import './variables';
+// Основні
+@import './base';
+// Main page
+@import './main-page/header';
+@import './main-page/hero-main';
+@import './main-page/restaurant-about';
+@import './main-page/restaurant-details';
+@import './main-page/hotel-about';
+@import './main-page/hotel-details';
+@import './main-page/contacts';
+@import './main-page/footer';
+// hotel-page
+@import './restaurant-page/hero-rest';
+@import './restaurant-page/kitchen';
+@import './restaurant-page/menu';
+// hotel-page
+@import './hotel-page/hero-hotel';
+@import './hotel-page/room-double-lux';
+@import './hotel-page/room-triple';
+@import './hotel-page/room-double';
+//double-room-page
+@import './double-room-page/hero-room';
+@import './double-room-page/amenities';
+//triple-room-page
+@import './triple-room-page/hero-triple-room';
+@import './triple-room-page/triple-amenities';
+// Modal
+@import './modal/book-room-modal';
+@import './modal/book-table-modal';
+@import './modal/room-price-modal';
+// Slide show
+@import './slide/slide-rest-page-kitchen';
+@import './slide/slide-double-room-lux';
+@import './slide/slide-triple-room';
+@import './slide/slide-double-room';
+@import './slide/slide-main-page-hotel-details';
+@import './slide/slide-main-page-rest-about';
